@@ -1,0 +1,15 @@
+{
+  "name": "WIP Clear",
+  "description": "A browser action that clean the WIP merges from GitHub Merges",
+  "version": "1.3",
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+   
+  "permissions": ["storage",  "activeTab"],
+  "browser_action": {
+      "name": "Click to clean the merge list"
+  },
+  "manifest_version": 2
+}
